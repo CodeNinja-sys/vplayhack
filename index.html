@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Открытие ссылки</title>
+  <script>
+    function openLink() {
+      var url = document.getElementById("linkInput").value;
+      window.open(url, "_blank");
+    }
+  </script>
+</head>
+<body>
+  <h2>Открытие ссылки</h2>
+  <label for="linkInput">Введите ссылку:</label>
+  <input type="text" id="linkInput">
+  <button onclick="openLink()">Открыть ссылку</button>
+</body>
+</html>
